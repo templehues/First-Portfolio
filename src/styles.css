@@ -1,10 +1,10 @@
 h1 {
   color: black;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-weight: bold;
+  font-family: "Lemon", serif;
+  font-size: 32px;
 }
 
-p {
+h2 {
   font-family: "Courier New", Courier, monospace;
   font-weight: normal;
 }
