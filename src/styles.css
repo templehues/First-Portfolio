@@ -70,15 +70,10 @@ img {
   color: white;
   font-family: var(--secondary-font-family);
   margin: 0;
+  width: 100%;
 }
 
 .email-link,
 .github-link {
   color: #2b124c;
-}
-
-@media (min-width: 600px) {
-  .hero {
-    padding-top: 100px;
-  }
 }
