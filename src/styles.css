@@ -91,6 +91,12 @@ img {
   height: 2.5rem;
 }
 
+.img-background {
+  background-image: url(/images/background.jpg);
+  background-size: cover;
+  height: 150px;
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 25px;
