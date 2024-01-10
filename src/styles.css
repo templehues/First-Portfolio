@@ -97,6 +97,15 @@ img {
   height: 150px;
 }
 
+.about-title {
+  padding-top: 15px;
+  margin-top: 25px;
+}
+
+.about-subtitle {
+  padding-top: 20px;
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 25px;
