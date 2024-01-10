@@ -1,14 +1,35 @@
+body {
+  background: #522b5b;
+}
+
+nav {
+  background-color: #854f6c;
+}
+
 .navbar-brand {
   font-family: "Salsa", cursive;
 }
 
 h1 {
-  color: black;
+  color: #2b124c;
   font-family: "Lemon", serif;
   font-size: 32px;
 }
 
 h2 {
   font-family: "Courier New", Courier, monospace;
-  font-weight: normal;
+  font-size: 23px;
+  color: #fbe4d8;
+}
+
+p {
+  color: #fbe4d8;
+}
+.about-me-btn {
+  margin: 15px;
+  color: #2b124c;
+  background-color: #fbe4d8;
+  border: none;
+  box-shadow: 6px 6px 6px #000;
+  padding: 10px 15px 10px 15px;
 }
