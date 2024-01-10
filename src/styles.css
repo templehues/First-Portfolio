@@ -68,7 +68,9 @@ img {
 .contact-links {
   font-family: var(--secondary-font-family);
   margin: 0;
-  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .email-link,
