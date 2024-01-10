@@ -46,3 +46,9 @@ button {
   background-color: #2b124c;
   padding: 10px 20px;
 }
+
+@media (min-width: 600px) {
+  .hero {
+    padding-top: 100px;
+  }
+}
