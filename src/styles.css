@@ -1,0 +1,10 @@
+h1 {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: normal;
+}
