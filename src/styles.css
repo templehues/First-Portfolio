@@ -10,7 +10,7 @@
 }
 
 body {
-  background: #522b5b;
+  background: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,11 +18,15 @@ body {
 }
 
 nav {
-  background-color: #854f6c;
+  background-color: var(--bs-color-4);
 }
 
 .navbar-brand {
   font-family: var(--secondary-font-family);
+  color: var(--primary-branding-color);
+}
+
+#navbarItems {
   color: var(--primary-branding-color);
 }
 
@@ -36,12 +40,18 @@ h1 {
 h2 {
   font-family: var(--secondary-font-family);
   font-size: 23px;
-  color: #fbe4d8;
+  color: var(--primary-branding-color);
   text-align: center;
+  text-shadow: 2px 2px 3px #2b124c;
 }
 
 p {
-  color: #fbe4d8;
+  color: var(--bs-color-4);
+}
+
+.homepage-paragraph {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 img {
@@ -61,8 +71,8 @@ img {
   margin: 15px;
   color: var(--bs-color-5);
   background-color: var(--primary-branding-color);
-  border: none;
   padding: 10px 15px 10px 15px;
+  border: 2px solid var(--bs-color-5);
 }
 
 .projects-btn {
@@ -79,7 +89,7 @@ img {
 
 .email-link,
 .github-link {
-  color: var(--secondary-branding-color);
+  color: var(--bs-color-6);
 }
 
 .dev-image {
