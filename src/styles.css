@@ -7,6 +7,7 @@
   --bs-color-6: #190019;
   --primary-font-family: "Lemon", serif;
   --secondary-font-family: "Salsa", cursive;
+  --font-family3: "Puppies Play", cursive;
 }
 
 body {
@@ -103,19 +104,13 @@ img {
   height: 2.5rem;
 }
 
-.img-background {
-  background-image: url(/images/background.jpg);
-  background-size: cover;
-  height: 150px;
-}
-
 .about-title {
   padding-top: 15px;
   margin-top: 25px;
-}
-
-.about-subtitle {
-  padding-top: 20px;
+  text-shadow: 2px 2px 3px var(--secondary-branding-color);
+  font-family: var(--font-family3);
+  font-size: 85px;
+  font-weight: bold;
 }
 
 .skills {
@@ -125,7 +120,7 @@ img {
 }
 
 .about-paragraph {
-  font-size: 15px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -136,6 +131,13 @@ img {
   line-height: 64px;
   padding: 10px;
   border-radius: 50%;
+}
+
+figcaption {
+  font-weight: bold;
+  padding: 0;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 600px) {
