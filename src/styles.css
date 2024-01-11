@@ -129,6 +129,15 @@ img {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.skill-set img {
+  width: 84px;
+  height: 84px;
+  margin: 0 auto 15px;
+  line-height: 64px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 25px;
