@@ -169,6 +169,11 @@ h5 {
   font-family: var(--secondary-font-family);
 }
 
+.btn {
+  color: var(--secondary-branding-color);
+  background-color: var(--bs-color-4);
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 25px;
