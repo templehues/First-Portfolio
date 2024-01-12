@@ -144,6 +144,10 @@ figcaption {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#projectsBtn {
+  padding: 18px 30px 18px 30px;
+}
+
 svg {
   width: 30px;
   height: 30px;
